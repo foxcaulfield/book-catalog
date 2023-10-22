@@ -35,3 +35,11 @@ Console book catalog application written in C++
 - -Wredundant-decls
 - -Wsign-conversion
 - -Wsign-promo
+
+### Project formatting style settings
+
+	{
+		BasedOnStyle: Google, 
+		IndentWidth: 4, 
+		AllowShortFunctionsOnASingleLine: None 
+	}
