@@ -32,4 +32,4 @@ Console book catalog application written in C++
 - -Woverloaded-virtual
 - -Wredundant-decls
 - -Wsign-conversion
-- -Wsign-pro
+- -Wsign-promo

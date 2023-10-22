@@ -32,7 +32,7 @@
 				"-Woverloaded-virtual",
 				"-Wredundant-decls",
 				"-Wsign-conversion",
-				"-Wsign-prom"
+				"-Wsign-promo"
 			],
 			"options": {
 				"cwd": "C:/msys64/mingw64/bin"
