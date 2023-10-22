@@ -1,0 +1,50 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "BUILD",
+			"command": "C:/msys64/mingw64/bin/g++.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${workspaceFolder}\\main.cpp",
+				"${workspaceFolder}\\src\\*.cpp",
+				"-o",
+				"${workspaceFolder}\\bin\\book-catalog.exe",
+				"-std=c++23",
+				"-Werror",
+				"-pedantic-errors",
+				"-Wall",
+				"-Wextra",
+				"-Wpedantic",
+				"-Wcast-align",
+				"-Wcast-qual",
+				"-Wconversion",
+				"-Wctor-dtor-privacy",
+				"-Wduplicated-branches",
+				"-Wduplicated-cond",
+				"-Wextra-semi",
+				"-Wfloat-equal",
+				"-Wlogical-op",
+				"-Wnon-virtual-dtor",
+				"-Wold-style-cast",
+				"-Woverloaded-virtual",
+				"-Wredundant-decls",
+				"-Wsign-conversion",
+				"-Wsign-prom"
+			],
+			"options": {
+				"cwd": "C:/msys64/mingw64/bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: C:/msys64/mingw64/bin/g++.exe"
+		}
+	]
+}
