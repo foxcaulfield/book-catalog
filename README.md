@@ -2,15 +2,17 @@
 
 Console book catalog application written in C++
 
-## C++ standart
+---
+
+### C++ standart
 
 - c++23
 
-## Compiler
+### Compiler
 
 - GCC 13.1 (g++) [MinGW-w64](https://code.visualstudio.com/docs/cpp/config-mingw)
 
-## List of compiler arguments
+### List of compiler arguments
 
 - -std=c++23
 - -Werror
