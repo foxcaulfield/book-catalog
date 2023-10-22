@@ -1,4 +1,4 @@
-#include "../headers/greet.hpp"
+#include "greet.hpp"
 
 void greet() {
     std::string greeting = "Welcome to book-catalog app!";

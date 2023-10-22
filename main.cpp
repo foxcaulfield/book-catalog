@@ -1,5 +1,6 @@
-#include "headers/globals.hpp"
-#include "headers/greet.hpp"
+#include "globals.hpp"
+#include "greet.hpp"
+#include "Book.hpp"
 
 int main() {
     greet();
