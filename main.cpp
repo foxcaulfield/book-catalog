@@ -17,6 +17,7 @@ int main() {
         std::cout << "  1 - Create book" << std::endl;
         std::cout << "  2 - Print catalog size" << std::endl;
         std::cout << "  3 - Print book titles" << std::endl;
+        std::cout << "  4 - Delete book at position" << std::endl;
         std::cout << "  0 - Exit" << std::endl;
 
         std::string choice;
@@ -36,9 +37,25 @@ int main() {
                 std::ptrdiff_t diff =
                     std::distance(main_catalog.books.begin(), book_iterator);
 
-                std::cout << "(" << diff << ") " << book_iterator->get_title() << std::endl;
+                std::cout << "(" << diff << ") " << book_iterator->get_title()
+                          << std::endl;
             }
             // std::cout << "Catalog size is: " << catalog_size << std::endl;
+        } else if (choice == "4") {
+            std::string position;
+            std::getline(std::cin, position);
+            int64_t i_position;
+            try {
+                i_position = std::stoll(position);
+            } catch (std::invalid_argument &error) {
+                std::cout << "Wrong argument! at " << error.what() << std::endl;
+            } catch (...) {
+                std::cout << "Unprocessable value!" << std::endl;
+            }
+
+            main_catalog.delete_book(i_position);
+            std::cout << "Done!" << std::endl;
+
         } else if (choice == "0") {
             break;
         } else {

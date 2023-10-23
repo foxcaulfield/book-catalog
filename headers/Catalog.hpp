@@ -10,6 +10,7 @@ class Catalog {
     std::vector<Book> books;
     void add_book(Book book);
     size_t get_books_count();
+    void delete_book(int64_t index);
 };
 
 #endif
