@@ -36,7 +36,8 @@
                 "-Woverloaded-virtual",
                 "-Wredundant-decls",
                 "-Wsign-conversion",
-                "-Wsign-promo"
+                "-Wsign-promo",
+                "-static"
             ]
         }
     ],
