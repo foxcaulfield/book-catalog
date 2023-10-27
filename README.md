@@ -41,5 +41,7 @@ Console book catalog application written in C++
 	{
 		BasedOnStyle: Google, 
 		IndentWidth: 4, 
-		AllowShortFunctionsOnASingleLine: None 
+		AllowShortFunctionsOnASingleLine: None,
+		DerivePointerAlignment: false, 
+		PointerAlignment: Right 
 	}
